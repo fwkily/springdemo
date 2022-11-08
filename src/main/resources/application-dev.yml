@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /fwk
+  port: 8080
+
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://114.116.9.97:3306/fwkdb?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: 1qw2!QW@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+#  redis:
+#    host: 114.116.9.97
+#    port: 6379
+
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
