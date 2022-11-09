@@ -180,7 +180,7 @@
             </snapshots>
         </repository>
     </repositories>
-<!--    &lt;!&ndash; 远程仓库地址 &ndash;&gt;-->
+    <!-- 远程仓库地址 -->
 <!--    <pluginRepositories>-->
 <!--        <pluginRepository>-->
 <!--            <id>nexus</id>-->
@@ -190,20 +190,20 @@
 <!--    </pluginRepositories>-->
 
     <!-- 配置远程发布到私服，mvn deploy -->
-    <distributionManagement>
-        <!-- 定义releases库的坐标 -->
-        <repository>
-            <id>releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://114.116.9.97:8081/repository/maven-releases/</url>
-        </repository>
-        <!-- 定义snapshots库 -->
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://114.116.9.97:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        &lt;!&ndash; 定义releases库的坐标 &ndash;&gt;-->
+<!--        <repository>-->
+<!--            <id>releases</id>-->
+<!--            <name>Nexus Release Repository</name>-->
+<!--            <url>http://114.116.9.97:8081/repository/maven-releases/</url>-->
+<!--        </repository>-->
+<!--        &lt;!&ndash; 定义snapshots库 &ndash;&gt;-->
+<!--        <snapshotRepository>-->
+<!--            <id>snapshots</id>-->
+<!--            <name>Nexus Snapshot Repository</name>-->
+<!--            <url>http://114.116.9.97:8081/repository/maven-snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 
 
 
